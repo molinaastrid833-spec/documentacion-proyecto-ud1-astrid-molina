@@ -1,33 +1,26 @@
 # Gestor de Incidencias
 
-Aplicación de consola en Java diseñada para la consulta y gestión de avisos de soporte técnico del centro. Permite a los usuarios interactuar con un registro de incidencias tanto a través de un menú interactivo como mediante argumentos directos en la línea de comandos.
+Aplicación de consola en Java diseñada para la consulta y gestión de un pequeño listado de avisos de soporte técnico de un centro educativo.
 
-## Funcionalidades y requisitos
+**Versión de Java:** Java (JDK) 17 o superior.
 
-**Funcionalidades principales:**
-- **Listar:** Muestra el registro completo de incidencias.
-- **Filtrar abiertas:** Muestra únicamente las incidencias que están pendientes de resolución.
-- **Buscar:** Permite localizar incidencias cuyo identificador o título coincidan con un texto específico.
-- **Detalle:** Busca una incidencia por su identificador exacto y muestra su información (lanzando un error controlado si no existe).
-
-**Requisitos del sistema:**
-- Java Development Kit (JDK) 17 o superior.
-- Terminal o consola de comandos (Bash, PowerShell, CMD).
-- Apache Maven (opcional, para compilar y generar Javadoc a través de `pom.xml`).
+## Funcionalidades principales
+- **Listar:** Muestra todas las incidencias registradas en el sistema.
+- **Filtrar abiertas:** Muestra únicamente aquellas incidencias que están pendientes de resolución.
+- **Buscar:** Permite localizar incidencias cuyo identificador o título coincidan con un texto proporcionado.
+- **Detalle:** Busca una incidencia por su identificador exacto y muestra su información (lanzando una excepción controlada si no existe).
 
 ## Estructura de archivos
 
-El proyecto sigue la estructura estándar de Maven:
-
 ```text
-proyecto-base-maven-gestor-incidencias/
+/
+├── .gitignore
 ├── pom.xml
 ├── README.md
 ├── src/
-│   └── main/java/
-│       └── es/centro/incidencias/
-│           ├── App.java
-│           ├── GestorIncidencias.java
-│           ├── Incidencia.java
-│           └── IncidenciaNoEncontradaException.java
-└── docs/                    ← (Se creará al generar el Javadoc)
+│   └── main/java/es/centro/incidencias/
+│       ├── App.java
+│       ├── GestorIncidencias.java
+│       ├── Incidencia.java
+│       └── IncidenciaNoEncontradaException.java
+└── docs/                     ← (Contiene el sitio generado por Javadoc)
