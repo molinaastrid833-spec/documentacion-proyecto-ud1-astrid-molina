@@ -1,0 +1,46 @@
+-J-Duser.language=
+-J-Duser.country=
+@options
+@packages
+-encoding
+'UTF-8'
+-protected
+--release
+17
+-sourcepath
+'D:/D_aap/Practica2/proyecto-base-maven-gestor-incidencias/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2026. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'D:/D_aap/Practica2/proyecto-base-maven-gestor-incidencias/docs/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'Gestor de incidencias 1.0.0 API'
+-use
+-version
+-windowtitle
+'Gestor de incidencias 1.0.0 API'
+es.centro.incidencias
+D:\D_aap\Practica2\proyecto-base-maven-gestor-incidencias\src\main\java = 1791306512000
+D:\D_aap\Practica2\proyecto-base-maven-gestor-incidencias\docs\apidocs\element-list = 1791902860000
+D:\D_aap\Practica2\proyecto-base-maven-gestor-incidencias\docs\apidocs\serialized-form.html = 1791902860000
+D:\D_aap\Practica2\proyecto-base-maven-gestor-incidencias\docs\apidocs\overview-tree.html = 1791902860000
+D:\D_aap\Practica2\proyecto-base-maven-gestor-incidencias\docs\apidocs\deprecated-list.html = 1791902860000
+D:\D_aap\Practica2\proyecto-base-maven-gestor-incidencias\docs\apidocs\allclasses-index.html = 1791902860000
+D:\D_aap\Practica2\proyecto-base-maven-gestor-incidencias\docs\apidocs\allpackages-index.html = 1791902860000
+D:\D_aap\Practica2\proyecto-base-maven-gestor-incidencias\docs\apidocs\module-search-index.js = 1791902860000
+D:\D_aap\Practica2\proyecto-base-maven-gestor-incidencias\docs\apidocs\package-search-index.js = 1791902860000
+D:\D_aap\Practica2\proyecto-base-maven-gestor-incidencias\docs\apidocs\type-search-index.js = 1791902860000
+D:\D_aap\Practica2\proyecto-base-maven-gestor-incidencias\docs\apidocs\member-search-index.js = 1791902862000
+D:\D_aap\Practica2\proyecto-base-maven-gestor-incidencias\docs\apidocs\tag-search-index.js = 1791902862000
+D:\D_aap\Practica2\proyecto-base-maven-gestor-incidencias\docs\apidocs\index-all.html = 1791902862000
+D:\D_aap\Practica2\proyecto-base-maven-gestor-incidencias\docs\apidocs\index.html = 1791902862000
+D:\D_aap\Practica2\proyecto-base-maven-gestor-incidencias\docs\apidocs\help-doc.html = 1791902862000
+D:\D_aap\Practica2\proyecto-base-maven-gestor-incidencias\docs\apidocs\stylesheet.css = 1791902862000
+D:\D_aap\Practica2\proyecto-base-maven-gestor-incidencias\docs\apidocs\script.js = 1791902862000
+D:\D_aap\Practica2\proyecto-base-maven-gestor-incidencias\docs\apidocs\search.js = 1791902862000
+D:\D_aap\Practica2\proyecto-base-maven-gestor-incidencias\docs\apidocs\jquery-ui.overrides.css = 1791902862000

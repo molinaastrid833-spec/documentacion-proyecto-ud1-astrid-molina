@@ -3,13 +3,26 @@ package es.centro.incidencias;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
+/**
+ * @author Astrid Molina
+ * @version 1.0
+ */
 
-
+/**
+ * Clase principal de la aplicación. Proporciona el punto de entrada y la interfaz
+ * de usuario para interactuar con el gestor, tanto mediante argumentos de terminal
+ * como a través de un menú interactivo.
+ */
 public final class App {
 
     private App() {
     }
-
+    /**
+     * Punto de entrada principal de la aplicación.
+     * Si no se proporcionan argumentos, se inicia la aplicación en modo interactivo.
+     *
+     * @param args los argumentos introducidos mediante la línea de comandos
+     */
     public static void main(String[] args) {
         GestorIncidencias gestor = new GestorIncidencias();
 
